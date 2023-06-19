@@ -18,7 +18,7 @@ import java.util.Scanner;
                 if (guess == targetNumber) {
                     System.out.println("当たり！おめでとうございます！");
                     break;
-                } else if (guess < targetNumber) {
+                } else if (guess > targetNumber) {
                     System.out.println("設定された数より大きいです。");
                 } else {
                     System.out.println("設定された数より小さいです。");
